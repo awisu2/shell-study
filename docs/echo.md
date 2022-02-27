@@ -34,7 +34,8 @@ echo "$v"
   - basic format: `\x1b[{setting}m`
     - thic code has escapable string `\x1b`. so when run echo need `-e` option
   - multi setting: `\x1b[{setting};{setting};{setting}m`
-  - set reset: `\x1b[m`
+  - set reset(blank): `\x1b[m`
+  - setting
     - setting: has two number `01` = target value. this mean text type(=0) is bold(=1)
     - target: 0: type, 3: text, 4: background
     - value(type): 1: bold, 2: light color, 3: italics, 4: underline, 5: blink, 6: reverse
