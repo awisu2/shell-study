@@ -42,7 +42,7 @@ b
 EOC
 ```
 
-**to valiable**
+**to variable**
 
 ```bash
 CODE=$(cat << EOC
