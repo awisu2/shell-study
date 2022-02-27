@@ -7,7 +7,7 @@
 **NOTE**
 
 - with multi line: `echo "$v"`
-- color: `\x1b[31m` is change to red. write after
+- color: `\x1b[31m` is change to red. detailed later
 
 ## sample
 
